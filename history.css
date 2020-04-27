@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://stari.co/app/uploads/music-history-374a17cf79e1603a.jpg);
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: white;
+    border: 2px double white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    background-color: rgba(222, 184, 135, 0.5);
+    font-weight: bolder;
+    color: white;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p {
+    color: white;
+}

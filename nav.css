@@ -1,0 +1,40 @@
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+    border-radius: 20px;
+}
+nav>ul>li{
+    float: left;
+}
+nav>ul>li a{
+    display: inline-block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+nav>ul>li a:hover{
+    background-color: aquamarine;
+}
+.dropcontent{
+    display: none;
+    position: absolute;
+    background-color: silver;
+    min-width: 207px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+.dropcontent a{
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropcontent{
+    display: block;
+}

@@ -6,3 +6,18 @@
     display: grid;
     grid-template-columns: 320px 320px 320px;
 }
+.album {
+    border: 2px solid black;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.album>h4,
+.album>h5{
+    text-align: center;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 320px 320px;
+}

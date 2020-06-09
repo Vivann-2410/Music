@@ -9,128 +9,178 @@
         href="https://pm1.narvii.com/6907/a249d687dde15bd9e8a075afa6bf6b63c1da6e7br1-1417-1384v2_hq.jpg">
     <link rel="stylesheet" href="artists.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </head>
 
-<body>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">HOME</a>
-            </li>
-            <li>
-                <a href="history.html">HISTORY OF MUSIC</a>
-            </li>
-            <li class="dropdown">
-                <a href="artists.html">MY FAVOURITE ARTIST</a>
-                <div class="dropcontent">
-                    <a href="journey.html">JOURNEY OF BTS</a>
-                    <a href="gallery.html">GALLERY</a>
-                    <a href="albums.html">ALBUMS</a>
-                </div>
-            </li>
-        </ul>
+<body class="container-fluid">
+    <nav style="border-radius: 20px;" class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">HISTORY OF MUSIC</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="artists.html" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MY FAVOURITE ARTIST <span class="sr-only">(current)</span>
+                    </a>
+                    <div style="border-radius: 5px;" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="artists.html">BTS</a>
+                        <a class="dropdown-item" href="journey.html">JOURNEY OF BTS</a>
+                        <a class="dropdown-item" href="albums.html">ALBUMS</a>
+                        <a class="dropdown-item" href="gallery.html">GALLERY</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <h1 style="text-align: center; color: white; font-size: 40px;">Bangtan Sonyeondan(BTS)</h1>
-    <div style="background-color: rgba(131, 147, 163, 0.384); font-weight: bolder;">
-        <p style="color: silver;">BTS (Korean: 방탄소년단; RR: Bangtan Sonyeondan), also known as the Bangtan Boys, is a seven-member South
-            Korean
-            boy band formed in Seoul in 2010. The septet co-writes and produces much of their output. Originally a
-            hip hop group, their musical style has evolved to include a wide range of genres. Their lyrics, often
-            focused on personal and social commentary, touch on the themes of mental health, troubles of school-age
-            youth, loss, the journey towards loving oneself, and individualism. Their work features references to
-            literature and psychological concepts and includes an alternative universe storyline. The group have
-            staged
-            several world tours.</p>
-        <p style="color: silver;">
-            The group initially formed as teenagers under Big Hit Entertainment and released their debut single
-            album, 2
-            Cool 4 Skool (2013). Subsequent work such as their first U.S. Billboard 200 entries The Most Beautiful
-            Moment in Life, Part 2 (2015), The Most Beautiful Moment in Life: Young Forever (2016), and Wings (2016)
-            helped establish BTS' reputation as a socially conscious group. Wings became BTS' first album to sell
-            one
-            million copies in South Korea. By 2017, BTS crossed into the international music market, leading the
-            Korean
-            Wave into the United States and breaking numerous sales records, becoming the first Korean group to
-            receive
-            a certification from the Recording Industry Association of America (RIAA) for their single "Mic Drop".
-            The
-            band is the first Korean act to top the Billboard 200 with their studio album Love Yourself: Tear (2018)
-            and
-            have since hit the top of the U.S. charts with their albums Love Yourself: Answer (2018), Map of the
-            Soul:
-            Persona (2019) and Map of the Soul: 7 (2020), making BTS the fastest group since the Beatles to earn
-            four
-            number one albums in less than two years. Love Yourself: Answer also broke South Korea's Gaon Album
-            Chart's
-            all-time monthly record previously set by Love Yourself: Tear and became the first Korean album
-            certified
-            Platinum in the United States.</p>
+    <br>
+    <h1 class="display-3 text-center text-white">BTS</h1>
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <p class="card-text text-center">BTS (Korean: 방탄소년단; RR: Bangtan Sonyeondan), also known as the Bangtan
+                Boys, is a seven-member South
+                Korean
+                boy band formed in Seoul in 2010. The septet co-writes and produces much of their output. Originally a
+                hip hop group, their musical style has evolved to include a wide range of genres. Their lyrics, often
+                focused on personal and social commentary, touch on the themes of mental health, troubles of school-age
+                youth, loss, the journey towards loving oneself, and individualism. Their work features references to
+                literature and psychological concepts and includes an alternative universe storyline. The group have
+                staged
+                several world tours.</p>
+            <p class="card-text text-center">
+                The group initially formed as teenagers under Big Hit Entertainment and released their debut single
+                album, 2
+                Cool 4 Skool (2013). Subsequent work such as their first U.S. Billboard 200 entries The Most Beautiful
+                Moment in Life, Part 2 (2015), The Most Beautiful Moment in Life: Young Forever (2016), and Wings (2016)
+                helped establish BTS' reputation as a socially conscious group. Wings became BTS' first album to sell
+                one
+                million copies in South Korea. By 2017, BTS crossed into the international music market, leading the
+                Korean
+                Wave into the United States and breaking numerous sales records, becoming the first Korean group to
+                receive
+                a certification from the Recording Industry Association of America (RIAA) for their single "Mic Drop".
+                The
+                band is the first Korean act to top the Billboard 200 with their studio album Love Yourself: Tear (2018)
+                and
+                have since hit the top of the U.S. charts with their albums Love Yourself: Answer (2018), Map of the
+                Soul:
+                Persona (2019) and Map of the Soul: 7 (2020), making BTS the fastest group since the Beatles to earn
+                four
+                number one albums in less than two years. Love Yourself: Answer also broke South Korea's Gaon Album
+                Chart's
+                all-time monthly record previously set by Love Yourself: Tear and became the first Korean album
+                certified
+                Platinum in the United States.</p>
+        </div>
     </div>
-    <div class="grid">
-        <div class="member">
-            <img style="width:100%;"
+    <br>
+    <div class="card-deck">
+        <div class="card">
+            <img class="img-fluid" style="width: 100%;"
                 src="https://vignette.wikia.nocookie.net/the-bangtan-boys/images/e/e6/RM_Profile.jpg/revision/latest?cb=20200212151903"
-                alt="Image error">
-            <h4>Kim Namjoon</h4>
-            <h5>RM</h5>
-            <p>Leader, Main rapper, Producer, Songwriter</p>
+                alt="Image error" class="img-fluid card-img-top mx-auto d-block">
+            <div class="card-body text-center">
+                <h4 class="card-title">Kim Namjoon</h4>
+                <h5 class="card-title">RM</h5>
+                <p class="card-text">Leader, Main rapper, Producer, Songwriter</p>
+            </div>
         </div>
-        <div class="member">
-            <img style="width:100%;"
+        <div class="card">
+            <img class="img-fluid" style="width: 100%;"
                 src="https://lh3.googleusercontent.com/noMx3OHR3iphSLJ0dD6nHsU6ntVJrVyWcz3x92OtAcpO6POIktY54gdwq_k6uZ6TvcJRyqmCU037g1GvqD3OfT2r"
-                alt="Image error">
-            <h4>Kim Seokjin</h4>
-            <h5>Jin</h5>
-            <p>Vocalist, Oldest member</p>
+                alt="Image error" class="img-fluid card-img-top mx-auto d-block">
+            <div class="card-body text-center">
+                <h4 class="card-title">Kim Seokjin</h4>
+                <h5 class="card-title">Jin</h5>
+                <p class="card-text">Vocalist, Oldest member</p>
+            </div>
         </div>
-        <div class="member">
-            <img style="width:100%;"
+        <div class="card">
+            <img class="img-fluid" style="width: 100%;"
                 src="https://lh3.googleusercontent.com/NOsdtPF84QVCjhv6_9GPIORa04jgRbnls7mnJanOl5GaSkazgw1Xv5WXK6z_SKrO8odH42u9Du0_eCbMjDi4kBJn"
-                alt="Image error">
-            <h4>Min Yoongi</h4>
-            <h5>Suga</h5>
-            <p>Lead rapper, Producer</p>
+                alt="Image error" class="img-fluid card-img-top mx-auto d-block">
+            <div class="card-body text-center">
+                <h4 class="card-title">Min Yoongi</h4>
+                <h5 class="card-title">Suga</h5>
+                <p class="card-text">Lead rapper, Producer</p>
+            </div>
         </div>
-        <div class="member">
-            <img style="width:100%;"
+        <div class="card">
+            <img class="img-fluid" style="width: 100%;"
                 src="https://lh3.googleusercontent.com/47kr1CBdO-GqpsHWAMdNeD-SU1Fy1HnyK1BH-f0ByvDQMGrUlsxaltG_9iDkYuKx07PYCeLrdLqdO7CWXz3934uR"
-                alt="Image error">
-            <h4>Jung Hoseok</h4>
-            <h5>J-Hope</h5>
-            <p>Rapper, Dance leader</p>
+                alt="Image error" class="img-fluid card-img-top mx-auto d-block">
+            <div class="card-body text-center">
+                <h4 class="card-title">Jung Hoseok</h4>
+                <h5 class="card-title">J-Hope</h5>
+                <p class="card-text">Rapper, Dance leader</p>
+            </div>
         </div>
     </div>
     <br>
-    <div class="grid2">
-        <div class="member">
-            <img style="width:100%;"
+    <div class="card-deck">
+        <div class="card">
+            <img class="img-fluid" style="width: 100%;"
                 src="https://lh3.googleusercontent.com/nx39bXB5Qas9NKVedRsapwk7ShfOfXAFcgg1-C4-jAdsY3KM215Goh9hcDYZxQV12fu6T6LBYBUuz9OIB1GCufKL"
-                alt="Image error">
-            <h4>Park Jimin</h4>
-            <h5>Jimin</h5>
-            <p>Lead vocalist, Main dancer</p>
+                alt="Image error" class="img-fluid card-img-top mx-auto d-block">
+            <div class="card-body text-center">
+                <h4 class="card-title">Park Jimin</h4>
+                <h5 class="card-title">Jimin</h5>
+                <p class="card-text">Lead vocalist, Main dancer</p>
+            </div>
         </div>
-        <div class="member">
-            <img style="width:100%;"
+        <div class="card">
+            <img class="img-fluid" style="width: 100%;"
                 src="https://lh3.googleusercontent.com/Ztkj26A1FL3bitWL0KOOXFiG-zakaJzozPNqu8hq6c9kpCrg1TQMMrEinCYqMAXMKs17PiyaHaOTGW93vNoKnaAawA"
-                alt="Image error">
-            <h4>Kim Taehyung</h4>
-            <h5>V</h5>
-            <p>Vocalist, Dancer</p>
+                alt="Image error" class="img-fluid card-img-top mx-auto d-block">
+            <div class="card-body text-center">
+                <h4 class="card-title">Kim Taehyung</h4>
+                <h5 class="card-title">V</h5>
+                <p class="card-text">Vocalist, Dancer</p>
+            </div>
         </div>
-        <div class="member">
-            <img style="width:100%;"
+        <div class="card">
+            <img class="img-fluid" style="width: 100%;"
                 src="https://lh3.googleusercontent.com/74Gm4D-e5TFIaU1BkymwXiQkvODMig_0CFd0zsX8efq93PJbyGZPZlzxsiZnrJQPmy3-pwERACFysuywYSVv5lOp"
-                alt="Image error">
-            <h4>Jeon Jungkook</h4>
-            <h5>Jungkook</h5>
-            <p>Main vocalist, Dancer, Youngest member</p>
+                alt="Image error" class="img-fluid card-img-top mx-auto d-block">
+            <div class="card-body text-center">
+                <h4 class="card-title">Jeon Jungkook</h4>
+                <h5 class="card-title">Jungkook</h5>
+                <p class="card-text">Main vocalist, Dancer, Youngest member</p>
+            </div>
+        </div>
+        <div class="card bg-transparent">
+            <img style="width: 100%;" src="" alt="" class="img-fluid card-img-top mx-auto d-block">
+            <div class="card-body text-center">
+                <h4 class="card-title"></h4>
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
+            </div>
         </div>
     </div>
     <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dU3zQNdKp80" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="mx-auto d-block" width="560" height="315" src="https://www.youtube.com/embed/dU3zQNdKp80"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <br>
 </body>
 
 </html>

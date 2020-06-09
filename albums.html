@@ -8,128 +8,194 @@
     <link rel="icon" type="image/jpg"
         href="https://pm1.narvii.com/6907/a249d687dde15bd9e8a075afa6bf6b63c1da6e7br1-1417-1384v2_hq.jpg">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">
-    <style>
-        img {
-            width: 300px;
-            border-radius: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </head>
 
-<body
-    style="background-image: url(https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/04/shutterstock_407554567-compressor-1.jpg);">
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">HOME</a>
-            </li>
-            <li>
-                <a href="history.html">HISTORY OF MUSIC</a>
-            </li>
-            <li class="dropdown">
-                <a href="artists.html">MY FAVOURITE ARTIST</a>
-                <div class="dropcontent">
-                    <a href="journey.html">JOURNEY OF BTS</a>
-                    <a href="gallery.html">GALLERY</a>
-                    <a href="albums.html">ALBUMS</a>
-                </div>
-            </li>
-        </ul>
+<body class="container-fluid">
+    <nav style="border-radius: 20px;" class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">HISTORY OF MUSIC</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="artists.html" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MY FAVOURITE ARTIST <span class="sr-only">(current)</span>
+                    </a>
+                    <div style="border-radius: 5px;" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="artists.html">BTS</a>
+                        <a class="dropdown-item" href="journey.html">JOURNEY OF BTS</a>
+                        <a class="dropdown-item" href="albums.html">ALBUMS</a>
+                        <a class="dropdown-item" href="gallery.html">GALLERY</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <h1 style="text-align: center; color: white; font-size: 40px;">Albums</h1>
-    <div class="grid">
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/2_cool_4_school/album-cover.jpg" alt="Image error">
-            <h4>2 COOL 4 SKOOL</h4>
-            <h5>June 12, 2013</h5>
+    <br>
+    <h1 class="display-3 text-center text-white">Albums</h1>
+    <br>
+    <div class="card-deck">
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/2_cool_4_school/album-cover.jpg" alt="Image error">
+            <div class="card-body">
+                <h4 class="text-center">2 COOL 4 SKOOL</h4>
+                <h5 class="text-center">June 12, 2013</h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/o_rul8_2/album-cover.jpg" alt="Image error">
-            <h4>O!RUL8,2?</h4>
-            <h5>September 11, 2013</h5>
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/o_rul8_2/album-cover.jpg" alt="Image error">
+            <div class="card-body">
+                <h4 class="text-center">O!RUL8,2?</h4>
+                <h5 class="text-center">September 11, 2013</h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/skool_luv_affair/album-cover.jpg"
-                alt="Image error">
-            <h4>SKOOL LUV AFFAIR</h4>
-            <h5>February 12, 2014</h5>
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/skool_luv_affair/album-cover.jpg" alt="Image error">
+            <div class="card-body">
+                <h4 class="text-center">SKOOL LUV AFFAIR</h4>
+                <h5 class="text-center">February 12, 2014</h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/dark_and_wild/album-cover.jpg" alt="Image error">
-            <h4>DARK & WILD</h4>
-            <h5>August 19, 2014</h5>
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/dark_and_wild/album-cover.jpg" alt="Image error">
+            <div class="card-body">
+                <h4 class="text-center">DARK & WILD</h4>
+                <h5 class="text-center">August 19, 2014</h5>
+            </div>
         </div>
     </div>
     <br>
-    <div class="grid">
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/hwayangyeonhwa-pt1/album-cover.jpg"
+    <div class="card-deck">
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/hwayangyeonhwa-pt1/album-cover.jpg"
                 alt="Image error">
-            <h4>THE MOST BEAUTIFUL MOMENT IN LIFE PT.1</h4>
-            <h5>April 29, 2015</h5>
+            <div class="card-body">
+                <h4 class="text-center">THE MOST BEAUTIFUL MOMENT IN LIFE PT.1</h4>
+                <h5 class="text-center">April 29, 2015</h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/hwayangyeonhwa-pt2/album-cover.jpg"
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/hwayangyeonhwa-pt2/album-cover.jpg"
                 alt="Image error">
-            <h4>THE MOST BEAUTIFUL MOMENT IN LIFE PT.2</h4>
-            <h5>November 30, 2015</h5>
+            <div class="card-body">
+                <h4 class="text-center">THE MOST BEAUTIFUL MOMENT IN LIFE PT.2</h4>
+                <h5 class="text-center">November 30, 2015</h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/young_forever/album-cover.jpg" alt="Image error">
-            <h4>THE MOST BEAUTIFUL MOMENT IN LIFE :
-                YOUNG FOREVER</h4>
-            <h5>May 2, 2016</h5>
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/young_forever/album-cover.jpg" alt="Image error">
+            <div class="card-body">
+                <h4 class="text-center">THE MOST BEAUTIFUL MOMENT IN LIFE :
+                    YOUNG FOREVER</h4>
+                <h5 class="text-center">May 2, 2016</h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/wings/album-cover.jpg" alt="Image error">
-            <h4>WINGS</h4>
-            <h5>October 10, 2016</h5>
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/wings/album-cover.jpg" alt="Image error">
+            <div class="card-body">
+                <h4 class="text-center">WINGS</h4>
+                <h5 class="text-center">October 10, 2016</h5>
+            </div>
         </div>
     </div>
     <br>
-    <div class="grid">
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/you_never_walk_alone/album-cover.jpg"
+    <div class="card-deck">
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/you_never_walk_alone/album-cover.jpg"
                 alt="Image error">
-            <h4>YOU NEVER
-                WALK ALONE</h4>
-            <h5>February 13, 2017</h5>
+            <div class="card-body">
+                <h4 class="text-center">YOU NEVER WALK ALONE</h4>
+                <h5 class="text-center">February 13, 2017</h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/album-cover.jpg"
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/album-cover.jpg"
                 alt="Image error">
-            <h4>LOVE YOURSELF承
-                ‘HER’</h4>
-            <h5>September 18, 2017</h5>
+            <div class="card-body">
+                <h4 class="text-center">LOVE YOURSELF承 ‘HER’</h4>
+                <h5 class="text-center">September 18, 2017</h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-tear/album-cover.jpg"
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/love_yourself-tear/album-cover.jpg"
                 alt="Image error">
-            <h4>LOVE YOURSELF轉
-                ‘TEAR’</h4>
-            <h5>May 18, 2018</h5>
+            <div class="card-body">
+                <h4 class="text-center">LOVE YOURSELF轉 ‘TEAR’</h4>
+                <h5 class="text-center">May 18, 2018</h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-answer/album-cover.jpg"
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/love_yourself-answer/album-cover.jpg"
                 alt="Image error">
-            <h4>LOVE YOURSELF結
-                ‘ANSWER’</h4>
-            <h5>August 24, 2018</h5>
+            <div class="card-body">
+                <h4 class="text-center">LOVE YOURSELF結 ‘ANSWER’</h4>
+                <h5 class="text-center">August 24, 2018</h5>
+            </div>
         </div>
     </div>
     <br>
-    <div class="grid3">
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/map_of_the_soul-persona/album-cover.jpg"
-                alt="Image error">
-            <h4>MAP OF THE SOUL : PERSONA</h4>
-            <h5>April 12, 2019</h5>
+    <div class="card-deck">
+        <div class="card bg-transparent">
+            <img class="img-fluid card-img-top" src="" alt="">
+            <div class="card-body">
+                <h4 class="text-center"></h4>
+                <h5 class="text-center"></h5>
+            </div>
         </div>
-        <div class="album">
-            <img src="https://ibighit.com/bts/images/bts/discography/map_of_the_soul-7/img01.jpg" alt="Image error">
-            <h4>MAP OF THE SOUL : 7</h4>
-            <h5>February 21, 2020</h5>
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/map_of_the_soul-persona/album-cover.jpg"
+                alt="Image error">
+            <div class="card-body">
+                <h4 class="text-center">MAP OF THE SOUL : PERSONA</h4>
+                <h5 class="text-center">April 12, 2019</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-fluid card-img-top"
+                src="https://ibighit.com/bts/images/bts/discography/map_of_the_soul-7/img01.jpg" alt="Image error">
+            <div class="card-body">
+                <h4 class="text-center">MAP OF THE SOUL : 7</h4>
+                <h5 class="text-center">February 21, 2020</h5>
+            </div>
+        </div>
+        <div class="card bg-transparent">
+            <img class="img-fluid card-img-top" src="" alt="">
+            <div class="card-body">
+                <h4 class="text-center"></h4>
+                <h5 class="text-center"></h5>
+            </div>
         </div>
     </div>
 </body>
